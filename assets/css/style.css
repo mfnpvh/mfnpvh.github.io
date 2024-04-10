@@ -1,0 +1,218 @@
+:root {
+    /* --cor-laranja: #e39170;
+    --cor-marron: brown; */
+    --cor-verde-escuro: #3a606e;  
+    --cor-cinza: #FFFFFF;
+    --cor-verde-claro: rgb(96, 123, 125);
+    --cor-verde-claro-transp: 0 0 0 1000px rgba(96, 123, 125, 0.899) inset;
+    --cor-verde-escuro-transp: 0 0 0 1000px rgba(58, 96, 110, 0.899) inset;
+}
+
+@media (min-width: 576) {
+    .imagem-cabecalho {
+        content: url("../img/header_2.jpg");
+    }
+}
+
+.imagem-cabecalho {
+    width:100%;
+    opacity: 0.9;
+
+}
+
+header {
+    position:relative;
+    /* :background-color: gray; */
+}
+
+/* .fonte-titulo {
+    font-family: "Anek Tamil", sans-serif;
+    color: white
+} */
+
+.info-header {
+    top: 10px;
+    right: 10px;
+    color: rgb(47, 41, 41);
+    font-size: clamp(10px, 2.5vw, 15px)
+}
+
+.title-header {
+    /* color:var(--cor-verde-escuro); */
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 0; */
+    /* font-size: clamp(30px, 2.5vw, 50px) */
+
+}
+
+@media only screen and (min-width: 1025px) {
+    .title-header {
+        top: 60%;
+    }
+} 
+
+.title-header p {
+    color: var(--cor-verde-escuro);
+    margin-bottom: 0;
+    font-size: clamp(1rem, 8vw, 45px);
+    font-family: 'Eczar', serif;
+    font-style: bold;
+}
+
+.dobra1 {
+    background-image: url("../img/imagemlateral1.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 0 0 0 1000px rgba(198, 133, 143, 0.899) inset; */
+    /* box-shadow: 0 0 0 1000px rgba(229, 225, 230, 0.899) inset; */
+    box-shadow: var(--cor-verde-escuro-transp);
+    filter: grayscale(30%);
+}
+
+.dobra2 {
+    background-image: url("../img/d2md_bg1.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* box-shadow: 0 0 0 1000px rgba(198, 133, 143, 0.899) inset; */
+    /* box-shadow: 0 0 0 1000px rgba(229, 225, 230, 0.899) inset; */
+    /* box-shadow: var(--cor-verde-escuro-transp); */
+    filter: grayscale(30%);
+}
+
+.card {
+    --bs-card-bg: #004358ad;
+    color: white;
+}
+
+.dobra3 {
+    background-image: url("../img/logo_branco.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    /* background-size: cover; */
+    /* box-shadow: 0 0 0 1000px rgba(255, 53, 139, 0.899) inset; */
+    /* box-shadow: 0 0 0 1000px rgba(229, 225, 230, 0.899) inset; */
+    /* box-shadow: 0 0 0 1000px rgba(40, 71, 52, 0.899) inset; */
+    filter: grayscale(30%);
+    background-color: var(--cor-verde-escuro);
+}
+
+.texto-dobra {
+    font-size: clamp(20px, 2.5vw, 28px)
+}
+
+.dobra1__row1--c1 p, .dobra3__row1--c1 p {
+    opacity: 1;    
+    color: white;
+}
+
+.dobra1__img, .dobra2__img, .dobra3__img {
+    margin-top: 30px;
+}
+
+.dobra2__img {
+    box-shadow: 30px 0px 0px -15px var(--cor-verde-claro);
+}
+
+.dobra4__text {
+    font-family: "pacifico";
+    color: var(--cor-marron);
+    font-size: 42px;
+}
+
+mark {
+    background-color: var(--cor-marron);
+    color: white;
+}
+
+.btn-primary, .bi-whatsapp {
+    --bs-btn-bg: var(--cor-cinza);
+    --bs-btn-border-color:var(--cor-cinza);
+    --bs-btn-color: var(--cor-verde-claro);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-border-color:var(--cor-cinza);
+    --bs-btn-hover-bg: var(--cor-verde-claro);
+    --bs-btn-active-color: var(--cor-verde-claro);
+    --bs-btn-active-bg: white;
+    --bs-btn-font-size:  clamp(15px, 2.5vw, 22px);
+}
+
+.btn-primary2 {
+    --bs-btn-bg: var(--cor-verde-escuro);
+    --bs-btn-color: white;
+    --bs-btn-border-color:var(--cor-verde-escuro);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-border-color: var(--cor-verde-claro);
+    --bs-btn-hover-bg: var(--cor-verde-claro);
+    --bs-btn-active-color: var(--cor-marron);
+    --bs-btn-active-bg: white;
+    --bs-btn-font-size:  clamp(15px, 2.5vw, 22px);
+}
+
+.btn-primary3{
+    --bs-btn-bg: var(--cor-cinza);
+    --bs-btn-border-color:var(--cor-cinza);
+    --bs-btn-color: var(--cor-verde-claro);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-border-color: var(--cor-verde-claro);
+    --bs-btn-hover-bg: var(--cor-verde-escuro);
+    --bs-btn-active-color: var(--cor-marron);
+    --bs-btn-active-bg: white;
+    --bs-btn-font-size:  clamp(15px, 2.5vw, 22px);
+}
+
+.accordion {
+    --bs-accordion-active-color: white;
+    --bs-accordion-active-bg: var(--cor-verde-escuro);
+    --bs-accordion-bg: white;
+    --bs-accordion-color: black;
+    
+}
+
+.whatslogo {
+    position: fixed;
+    width: 85px;
+    height: 85px;
+    right: 0;
+    bottom: 10px;
+    z-index: 10;
+}
+
+.curriculo {
+    background-color: var(--cor-verde-escuro);
+    margin-top: 150px;
+    /* background-image: url("../img/logo_vinho_100.webp"); */
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* box-shadow: 0 0 0 1000px rgba(0, 67, 88, 0.899) inset; */
+    /* box-shadow: 0 0 0 1000px rgba(229, 225, 230, 0.899) inset; */
+    /* box-shadow: 0 0 0 1000px rgba(40, 71, 52, 0.899) inset; */
+    filter: grayscale(30%);
+    color: white;
+}
+
+.imagem-footer {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 100%;
+    border: 5px solid var(--cor-cinza);
+    height: 200px;
+}
+
+.curriculo__texto {
+    margin-top: -50px;
+}
+
+.copyright {
+    background-color: var(--cor-verde-claro);
+    color: white;
+}
