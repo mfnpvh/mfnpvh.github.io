@@ -8,15 +8,15 @@
     --cor-verde-escuro-transp: 0 0 0 1000px rgba(58, 96, 110, 0.899) inset;
 }
 
-@media (min-width: 576) {
+/* @media (min-width: 576) {
     .imagem-cabecalho {
         content: url("../img/header_2.jpg");
     }
-}
+} */
 
 .imagem-cabecalho {
     width:100%;
-    opacity: 0.9;
+    /* opacity: 0.9; */
 
 }
 
@@ -62,6 +62,7 @@ header {
     font-size: clamp(1rem, 8vw, 45px);
     font-family: 'Eczar', serif;
     font-style: bold;
+    text-shadow: 0px 0px 7px #bbc1c7f2;
 }
 
 .dobra1 {
@@ -76,7 +77,7 @@ header {
 }
 
 .dobra2 {
-    background-image: url("../img/d2md_bg1.webp");
+    background-image: url("../img/d2-bg.webp");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
