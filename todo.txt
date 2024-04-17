@@ -1,0 +1,19 @@
+[OK] - estudar margens
+[OK] - começar a LP com a imagem da montanha
+[OK] - padronizar imagens dos quadros
+[OK] - colocar fundo e transparência nos cards
+[OK] - Colocar imagem grande na dobra3 alinhado para baixo
+[OK]- Terminar footer e dobra de perguntar
+[OK] - Cards da dobra 2 ficam sem espaçamento na versão mobile
+[OK] - Aumentar o respiro após o último botão do whats
+[OK] - Atualizar para as cores do cliente
+[OK] - Fazer imagem do cabeçalho mobile
+[OK] - Colocar logo no cabeçalho
+[OK] - Deixar o texto do header mais visível
+[OK] - Atualizar para as fontes do cliente
+[OK] - Atualizar title do header
+
+- Atualizar dados do cabeçalho
+- Imagem da médica da dobra 2 fica muito esticada dependendo do tamanho da tela
+- Verificar possibilidade de fazer dobra com fotos do consultório
+- Atualizar links do whatsapp e instagram
